@@ -1,0 +1,14 @@
+{
+  "name": "antoni-skills",
+  "version": "0.1.0",
+  "description": "Antoni's collection of Claude Code skills",
+  "author": {
+    "name": "Antoni Silvestrovic"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/engineering/atomic-commits",
+    "./skills/content/optimize-for-x"
+  ],
+  "commands": "./commands/"
+}

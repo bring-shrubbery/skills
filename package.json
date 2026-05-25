@@ -1,0 +1,23 @@
+{
+  "name": "@bring-shrubbery/skills",
+  "version": "0.1.0",
+  "description": "Antoni's collection of Claude Code skills",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bring-shrubbery/skills"
+  },
+  "files": [
+    ".claude-plugin",
+    "skills",
+    "commands",
+    "README.md",
+    "CLAUDE.md",
+    "LICENSE"
+  ]
+}
