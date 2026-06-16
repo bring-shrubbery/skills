@@ -8,6 +8,7 @@
   "license": "MIT",
   "skills": [
     "./skills/engineering/atomic-commits",
+    "./skills/engineering/linear-driven-development",
     "./skills/content/optimize-for-x"
   ],
   "commands": "./commands/"

@@ -7,6 +7,7 @@ Antoni's collection of Claude Code skills — straight from my `.claude` directo
 | Skill | Category | What it does |
 | --- | --- | --- |
 | [atomic-commits](skills/engineering/atomic-commits/SKILL.md) | engineering | Enforces an atomic commit workflow — breaks implementation into small, self-contained units and commits after each one. |
+| [linear-driven-development](skills/engineering/linear-driven-development/SKILL.md) | engineering | Makes Linear the source of truth — every task becomes a Linear issue before implementation, specs live in the issue, and phased work spanning multiple PRs/worktrees splits into sub-issues. |
 | [optimize-for-x](skills/content/optimize-for-x/SKILL.md) | content | Optimizes a post for the X "For You" algorithm — drafts variants from a topic, or critiques and rewrites an existing draft. |
 
 ## Install
