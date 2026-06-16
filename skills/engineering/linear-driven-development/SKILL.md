@@ -46,6 +46,7 @@ While working, watch for adjacent issues, and surface them — but never act wit
 
 - **Surface related backlog** — if you notice open Linear tickets related to what you're touching (bugs, tech-debt), mention them and offer to address them too.
 - **Offer to file new tickets** — if you discover a bug or tech-debt that isn't tracked, offer to create a Linear issue for it.
+- **Convert TODO comments into tickets** — when you come across `TODO` comments in the codebase, offer to back them with Linear issues. If a ticket already exists for that TODO, reuse it; otherwise create a new one whose description captures the context of the issue. Add the ticket to the relevant project and link any blockers or other related issues. Once the ticket exists, link it back in the TODO comment (e.g. `// TODO(ABC-123): ...`).
 
 In both cases: propose, then wait for explicit approval. Do not create issues or start fixing related work silently.
 
