@@ -12,12 +12,20 @@ Antoni's collection of Claude Code skills — straight from my `.claude` directo
 
 ## Install
 
-Install any skill with one line using the `skills` CLI:
+Install any skill with one line using the `skills` CLI. Pass the skill name
+with `--skill` (the skills live in nested category folders, so a bare path
+won't resolve):
 
 ```bash
-npx skills@latest add bring-shrubbery/skills/atomic-commits
-npx skills@latest add bring-shrubbery/skills/linear-driven-development
-npx skills@latest add bring-shrubbery/skills/optimize-for-x
+npx skills@latest add bring-shrubbery/skills --skill atomic-commits
+npx skills@latest add bring-shrubbery/skills --skill linear-driven-development
+npx skills@latest add bring-shrubbery/skills --skill optimize-for-x
+```
+
+Or install everything in the repo at once:
+
+```bash
+npx skills@latest add bring-shrubbery/skills
 ```
 
 ## Commands
