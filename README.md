@@ -16,6 +16,7 @@ Install any skill with one line using the `skills` CLI:
 
 ```bash
 npx skills@latest add bring-shrubbery/skills/atomic-commits
+npx skills@latest add bring-shrubbery/skills/linear-driven-development
 npx skills@latest add bring-shrubbery/skills/optimize-for-x
 ```
 
