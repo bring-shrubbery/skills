@@ -8,6 +8,7 @@ Antoni's collection of Claude Code skills — straight from my `.claude` directo
 | --- | --- | --- |
 | [atomic-commits](skills/engineering/atomic-commits/SKILL.md) | engineering | Enforces an atomic commit workflow — breaks implementation into small, self-contained units and commits after each one. |
 | [linear-driven-development](skills/engineering/linear-driven-development/SKILL.md) | engineering | Makes Linear the source of truth for specs — every task becomes a Linear issue before implementation, specs live in the issue, and phased work spanning multiple PRs/worktrees splits into sub-issues. Auto-files tickets that need to be done, but irrelevant for the current worktree/pr |
+| [github-driven-development](skills/engineering/github-driven-development/SKILL.md) | engineering | Makes GitHub Issues the source of truth for specs — every task becomes a GitHub issue before implementation, specs live in the issue body, phased work spanning multiple PRs/worktrees splits into sub-issues, and every PR closes its issue. Offers to file issues for TODOs and adjacent bugs it finds along the way. |
 | [optimize-for-x](skills/content/optimize-for-x/SKILL.md) | content | Optimizes a post for the X "For You" algorithm — drafts variants from a topic, or critiques and rewrites an existing draft. |
 
 ## Install
@@ -23,6 +24,7 @@ Some skills ship with companion slash commands (in [`commands/`](commands/)):
 - `/auto-commit` — enable automatic atomic commits for the session (pairs with `atomic-commits`).
 - `/optimize-for-x <topic OR draft>` — invoke `optimize-for-x` explicitly with an argument.
 - `/linear-driven-development` - track everything in Linear as you develop
+- `/github-driven-development` - track everything in GitHub Issues as you develop
 
 ## License
 
